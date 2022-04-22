@@ -27,10 +27,10 @@ body {
 
 .rating-state {
 	&__container {
-		margin: 5em auto;
+		margin: 5em 5em;
 		padding: 2em;
-		width: 50em;
-		height: 50em;
+		width: 32em;
+		height: 32em;
 		background-color: $dark-blue;
 		border-radius: 10px;
 	}

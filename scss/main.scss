@@ -2,12 +2,22 @@
 
 * {
 	box-sizing: border-box;
-	padding: 0;
-	margin: 0;
+	padding: 0 auto;
+	margin: 0 auto;
 }
 
 body {
 	background-color: $very-dark-blue;
+	font-size: 10px;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1200px;
+	display: grid;
+	align-items: center;
+	justify-content: center;
 }
 .attribution {
 	font-size: 11px;
@@ -17,16 +27,18 @@ body {
 
 .rating-state {
 	&__container {
+		margin: 5em auto;
 		padding: 2em;
-		width: 20em;
-		height: 20em;
+		width: 50em;
+		height: 50em;
 		background-color: $dark-blue;
 		border-radius: 10px;
 	}
 	&__circles-wrapper {
 		display: flex;
 		justify-content: space-between;
-		align-items: center;
+		padding-top: 2em;
+		padding-bottom: 2em;
 	}
 	&__circle {
 		display: flex;

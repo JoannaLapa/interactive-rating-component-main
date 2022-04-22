@@ -5,6 +5,10 @@
 	padding: 0;
 	margin: 0;
 }
+
+body {
+	background-color: $very-dark-blue;
+}
 .attribution {
 	font-size: 11px;
 	text-align: center;
@@ -12,6 +16,18 @@
 }
 
 .rating-state {
+	&__container {
+		padding: 2em;
+		width: 20em;
+		height: 20em;
+		background-color: $dark-blue;
+		border-radius: 10px;
+	}
+	&__circles-wrapper {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
 	&__circle {
 		display: flex;
 		flex-direction: row;

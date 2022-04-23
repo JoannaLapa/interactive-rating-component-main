@@ -13,17 +13,17 @@ body {
 }
 
 .wrapper {
-	margin: 0 auto;
-	width: 100%;
-	max-width: 1200px;
 	display: grid;
 	align-items: center;
 	justify-content: center;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1200px;
 }
 .attribution {
-	font-size: 11px;
 	text-align: center;
 	color: hsl(228, 45%, 44%);
+	font-size: 11px;
 }
 
 .rating-state {
@@ -47,22 +47,22 @@ body {
 	}
 	&__img-box{
 		position: relative;
-		margin: 0;
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		margin: 0;
 		width: 5em;
 		height: 5em;
 	}
 
 	&__img-box-shadow{
 		position: absolute;
+		width: 100%;
+		height: 100%;
 		background-color: $medium-grey;
 		border-radius: 50%;
 		opacity: 0.2;
 		border: 1px solid transparent;
-		width: 100%;
-		height: 100%;
 		overflow: hidden;
 	}
 
@@ -80,11 +80,11 @@ body {
 		flex-direction: row;
 		align-items: center;
 		justify-content: center;
+		width: 50px;
+		height: 50px;
 		border-radius: 50%;
 		border: 1px solid transparent;
 		background-color: $medium-grey;
-		width: 50px;
-		height: 50px;
 	}
 	&__btn {
 		background-color: $orange;

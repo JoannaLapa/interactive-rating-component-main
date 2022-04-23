@@ -69,6 +69,11 @@ body {
 	&__img {
 		position: absolute;
 	}
+
+	&__header {
+		margin: 0;
+		color: $white;
+	}
 	&__circles-wrapper {
 		display: flex;
 		justify-content: space-between;

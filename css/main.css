@@ -38,7 +38,7 @@ body {
   margin: 5em 5em;
   padding: 2em;
   width: 32em;
-  height: 32em;
+  height: 37em;
 }
 
 .rating-state__container-shadow {
@@ -63,6 +63,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   margin: 0;
+  margin-top: 1em;
   width: 5em;
   height: 5em;
 }

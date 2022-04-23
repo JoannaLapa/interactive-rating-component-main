@@ -153,7 +153,31 @@ body {
   border-radius: 50%;
 }
 
-.rating-state__btn {
+.rating-state__btn-box {
+  position: relative;
+}
+
+.rating-state__btn-shadow {
+  position: absolute;
+  margin-left: 0.6em;
+  width: 95%;
+  height: 3em;
   background-color: #fb7413;
+  opacity: 0.3;
+  border-radius: 20em;
+}
+
+.rating-state__btn {
+  padding: 1em 0;
+  margin-left: 0.5em;
+  margin-bottom: 1em;
+  width: 95%;
+  height: 3em;
+  background-color: #fb7413;
+  color: white;
+  border-radius: 20em;
+  border: 1px solid transparent;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 /*# sourceMappingURL=main.css.map */

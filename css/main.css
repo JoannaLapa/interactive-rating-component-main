@@ -128,7 +128,29 @@ body {
   height: 4em;
   border-radius: 50%;
   border: 1px solid transparent;
+  color: #959eac;
+}
+
+.rating-state__circle-box {
+  position: relative;
+}
+
+.rating-state__circle-shadow {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 4em;
+  height: 4em;
   background-color: #7c8798;
+  opacity: 0.2;
+  border-radius: 50%;
 }
 
 .rating-state__btn {

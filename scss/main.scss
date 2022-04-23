@@ -101,7 +101,23 @@ body {
 		height: 4em;
 		border-radius: 50%;
 		border: 1px solid transparent;
+		color: $light-grey;
+	}
+
+	&__circle-box {
+		position: relative;
+	}
+
+	&__circle-shadow{
+		position: absolute;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 4em;
+		height: 4em;
 		background-color: $medium-grey;
+		opacity: 0.2;
+		border-radius: 50%;
 	}
 	&__btn {
 		background-color: $orange;

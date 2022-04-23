@@ -84,7 +84,15 @@ body {
 
 .rating-state__header {
   margin: 0;
+  padding-top: 1em;
   color: white;
+}
+
+.rating-state__txt {
+  padding-top: 1em;
+  color: #7c8798;
+  font-size: 1rem;
+  font-weight: 400;
 }
 
 .rating-state__circles-wrapper {

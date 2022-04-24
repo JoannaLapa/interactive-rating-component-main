@@ -135,4 +135,17 @@ body {
 			width: 50%;
 			height: 80%;
 		}
+
+		&__box {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 60%;
+			height: 2.5em;
+			background-color: $medium-grey2;
+			border-radius: 2em;
+		}
+		// &__txt {
+		// 	color: orange;
+		// }
 }

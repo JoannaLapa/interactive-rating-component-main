@@ -59,7 +59,7 @@ body {
   margin: 0;
   width: 2.5em;
   height: 2.5em;
-  background-color: rgba(124, 135, 152, 0.2);
+  background-color: rgba(124, 135, 152, 0.1);
   border: 1px solid transparent;
   border-radius: 50%;
 }
@@ -113,7 +113,7 @@ body {
   height: 3em;
   border-radius: 50%;
   border: 0 solid transparent;
-  background-color: rgba(124, 135, 152, 0.2);
+  background-color: rgba(124, 135, 152, 0.1);
   color: #959eac;
   font-size: 0.8rem;
   -webkit-transition: background-color 0.3s, color 0.3s;
@@ -159,5 +159,21 @@ body {
 .thankyou-state__img {
   width: 50%;
   height: 80%;
+}
+
+.thankyou-state__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 60%;
+  height: 2.5em;
+  background-color: rgba(124, 135, 152, 0.1);
+  border-radius: 2em;
 }
 /*# sourceMappingURL=main.css.map */

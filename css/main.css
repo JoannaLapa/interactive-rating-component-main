@@ -37,6 +37,7 @@ body {
   position: relative;
   display: -ms-grid;
   display: grid;
+  display: none;
   padding: 1.5em;
   width: 21em;
   height: 22em;
@@ -145,6 +146,18 @@ body {
 }
 
 .thankyou-state__container {
-  display: none;
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  padding: 1.5em;
+  width: 21em;
+  height: 22em;
+  background-color: rgba(37, 45, 55, 0.6);
+  border-radius: 1em;
+}
+
+.thankyou-state__img {
+  width: 50%;
+  height: 80%;
 }
 /*# sourceMappingURL=main.css.map */

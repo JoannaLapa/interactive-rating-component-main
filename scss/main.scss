@@ -32,6 +32,7 @@ body {
 	&__container {
 		position: relative;
 		display: grid;
+		display: none;
 		padding: 1.5em;
 		width: 21em;
 		height: 22em;
@@ -122,6 +123,16 @@ body {
 
 .thankyou-state {
 	&__container {
-		display: none;
-	}
+			position: relative;
+			display: grid;
+			padding: 1.5em;
+			width: 21em;
+			height: 22em;
+			background-color: $dark-blue2;
+			border-radius: 1em;
+		}
+		&__img {
+			width: 50%;
+			height: 80%;
+		}
 }

@@ -125,13 +125,14 @@ body {
 	&__container {
 			position: relative;
 			display: grid;
-			padding: 1.5em;
+			padding: 1.2em;
 			width: 21em;
 			height: 22em;
 			background-color: $dark-blue2;
 			border-radius: 1em;
 		}
 		&__img {
+			margin-top: 1em;
 			width: 50%;
 			height: 80%;
 		}
@@ -145,10 +146,19 @@ body {
 			background-color: $medium-grey2;
 			border-radius: 2em;
 		}
+
 		&__txt {
 			color: $orange2;
 		}
+
 		&__header {
 			color: $white;
+			font-size: 1.5rem;
+			font-weight: 400;
+		}
+
+		&__txt-grey {
+			color: $medium-grey3;
+			text-align: center;
 		}
 }

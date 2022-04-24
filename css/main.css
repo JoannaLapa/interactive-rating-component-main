@@ -41,7 +41,7 @@ body {
   padding: 1.5em;
   width: 21em;
   height: 22em;
-  background-color: rgba(37, 45, 55, 0.6);
+  background-color: rgba(37, 45, 55, 0.7);
   border-radius: 1em;
 }
 
@@ -149,14 +149,15 @@ body {
   position: relative;
   display: -ms-grid;
   display: grid;
-  padding: 1.5em;
+  padding: 1.2em;
   width: 21em;
   height: 22em;
-  background-color: rgba(37, 45, 55, 0.6);
+  background-color: rgba(37, 45, 55, 0.7);
   border-radius: 1em;
 }
 
 .thankyou-state__img {
+  margin-top: 1em;
   width: 50%;
   height: 80%;
 }
@@ -183,5 +184,12 @@ body {
 
 .thankyou-state__header {
   color: white;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.thankyou-state__txt-grey {
+  color: rgba(124, 135, 152, 0.8);
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */

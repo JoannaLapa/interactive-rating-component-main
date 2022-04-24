@@ -39,7 +39,7 @@ body {
   display: grid;
   display: none;
   padding: 1.5em;
-  width: 21em;
+  width: 22em;
   height: 22em;
   background-color: rgba(37, 45, 55, 0.7);
   border-radius: 1em;
@@ -150,7 +150,7 @@ body {
   display: -ms-grid;
   display: grid;
   padding: 1.2em;
-  width: 21em;
+  width: 22em;
   height: 22em;
   background-color: rgba(37, 45, 55, 0.7);
   border-radius: 1em;

@@ -180,4 +180,8 @@ body {
 .thankyou-state__txt {
   color: rgba(251, 116, 19, 0.6);
 }
+
+.thankyou-state__header {
+  color: white;
+}
 /*# sourceMappingURL=main.css.map */

@@ -21,11 +21,13 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   margin: 0 auto;
-  width: 100%;
+  width: 100vw;
   max-width: 1200px;
+  height: 100vh;
 }
 
 .attribution {
+  padding: 2em;
   text-align: center;
   color: #3e52a3;
   font-size: 11px;
@@ -35,10 +37,9 @@ body {
   position: relative;
   display: -ms-grid;
   display: grid;
-  margin: 5em 5em;
   padding: 1.5em;
   width: 21em;
-  height: 24em;
+  height: 22em;
   background-color: rgba(37, 45, 55, 0.6);
   border-radius: 1em;
 }
@@ -55,8 +56,8 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   margin: 0;
-  width: 3em;
-  height: 3em;
+  width: 2.5em;
+  height: 2.5em;
   background-color: rgba(124, 135, 152, 0.2);
   border: 1px solid transparent;
   border-radius: 50%;
@@ -64,18 +65,20 @@ body {
 
 .rating-state__img {
   position: absolute;
+  width: 0.8em;
+  height: 0.8em;
 }
 
 .rating-state__header {
   margin: 0;
-  padding: 0.7em 0;
   color: white;
+  font-weight: 400;
 }
 
 .rating-state__txt {
   padding-bottom: 1em;
   color: #7c8798;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: 400;
 }
 

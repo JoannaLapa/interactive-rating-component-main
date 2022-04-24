@@ -17,10 +17,12 @@ body {
 	align-items: center;
 	justify-content: center;
 	margin: 0 auto;
-	width: 100%;
+	width: 100vw;
 	max-width: 1200px;
+	height: 100vh;
 }
 .attribution {
+	padding: 2em;
 	text-align: center;
 	color: hsl(228, 45%, 44%);
 	font-size: 11px;
@@ -30,10 +32,9 @@ body {
 	&__container {
 		position: relative;
 		display: grid;
-		margin: 5em 5em;
 		padding: 1.5em;
 		width: 21em;
-		height: 24em;
+		height: 22em;
 		background-color: $dark-blue2;
 		border-radius: 1em;
 	}
@@ -44,8 +45,8 @@ body {
 		align-items: center;
 		justify-content: center;
 		margin: 0;
-		width: 3em;
-		height: 3em;
+		width: 2.5em;
+		height: 2.5em;
 		background-color: $medium-grey2;
 		border: 1px solid transparent;
 		border-radius: 50%;
@@ -53,18 +54,20 @@ body {
 
 	&__img {
 		position: absolute;
+		width: 0.8em;
+		height: 0.8em;
 	}
 
 	&__header {
 		margin: 0;
-		padding: 0.7em 0;
 		color: $white;
+		font-weight: 400;
 	}
 
 	&__txt {
 		padding-bottom: 1em;
 		color: $medium-grey;
-		font-size: 0.9rem;
+		font-size: 0.8rem;
 		font-weight: 400;
 	}
 
@@ -90,12 +93,12 @@ body {
 		color: $light-grey;
 		font-size: 0.8rem;
 		transition: background-color 0.3s, color 0.3s;
-		
+
 		&:hover {
-					background-color: $orange;
-					color: $white;
+			background-color: $orange;
+			color: $white;
+		}
 	}
-}
 
 	&__btn {
 		width: 100%;
@@ -118,8 +121,7 @@ body {
 }
 
 .thankyou-state {
-	
-	&__container{
-display: none;
+	&__container {
+		display: none;
 	}
 }

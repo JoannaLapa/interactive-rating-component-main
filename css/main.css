@@ -172,8 +172,12 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   width: 60%;
-  height: 2.5em;
+  height: 2.3em;
   background-color: rgba(124, 135, 152, 0.1);
   border-radius: 2em;
+}
+
+.thankyou-state__txt {
+  color: rgba(251, 116, 19, 0.6);
 }
 /*# sourceMappingURL=main.css.map */

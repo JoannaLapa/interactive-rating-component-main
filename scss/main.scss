@@ -100,7 +100,13 @@ body {
 			background-color: $orange;
 			color: $white;
 		}
+
+		&__circle-grey {
+			background-color: $medium-grey;
+		}
 	}
+
+
 
 	&__btn {
 		width: 100%; //267 px

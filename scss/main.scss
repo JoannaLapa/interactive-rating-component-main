@@ -25,15 +25,15 @@ body {
 	padding: 2em;
 	text-align: center;
 	color: hsl(228, 45%, 44%);
-	font-size: 11px;
+	font-size: 0.8rem;
 }
+
 
 .rating-state {
 	//margin top 145 px margin bottom 147 px, w312 px, h344 px, padding sides 23px/22px, padding top22px, padding bottom 28px
 	&__container {
 		position: relative;
 		display: grid;
-		display: none;
 		padding: 1.5em;
 		width: 22em;
 		height: 22em;
@@ -95,17 +95,17 @@ body {
 		color: $light-grey;
 		font-size: 0.8rem; //12px
 		transition: background-color 0.3s, color 0.3s;
+		cursor: pointer;
 
 		&:hover {
 			background-color: $orange;
 			color: $white;
 		}
-
-		&__circle-grey {
-			background-color: $medium-grey;
-		}
 	}
-
+	&__circle-grey {
+		background-color: $medium-grey;
+		color: $white;
+	}
 
 
 	&__btn {
@@ -168,4 +168,8 @@ body {
 		color: $medium-grey3;
 		text-align: center; //fz 14px
 	}
+}
+
+.deactivate {
+	display: none;
 }

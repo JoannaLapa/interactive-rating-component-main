@@ -30,14 +30,13 @@ body {
   padding: 2em;
   text-align: center;
   color: #3e52a3;
-  font-size: 11px;
+  font-size: 0.8rem;
 }
 
 .rating-state__container {
   position: relative;
   display: -ms-grid;
   display: grid;
-  display: none;
   padding: 1.5em;
   width: 22em;
   height: 22em;
@@ -118,10 +117,16 @@ body {
   font-size: 0.8rem;
   -webkit-transition: background-color 0.3s, color 0.3s;
   transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
 }
 
 .rating-state__circle:hover {
   background-color: #fb7413;
+  color: white;
+}
+
+.rating-state__circle-grey {
+  background-color: #7c8798;
   color: white;
 }
 
@@ -191,5 +196,9 @@ body {
 .thankyou-state__txt-grey {
   color: rgba(124, 135, 152, 0.8);
   text-align: center;
+}
+
+.deactivate {
+  display: none;
 }
 /*# sourceMappingURL=main.css.map */

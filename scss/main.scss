@@ -16,31 +16,31 @@ body {
 	display: grid;
 	align-items: center;
 	justify-content: center;
-	margin: 0 auto;
 	width: 100vw;
 	max-width: 1200px;
 	height: 100vh;
 }
 .attribution {
-	padding: 2em;
+	position: absolute;
+	bottom: 1rem;
+	left: 50%;
+	transform: translateX(-50%);
+	padding: 1.33rem;
 	text-align: center;
 	color: hsl(228, 45%, 44%);
 	font-size: 0.8rem;
 }
 
-
-.rating-state {
-	//margin top 145 px margin bottom 147 px, w312 px, h344 px, padding sides 23px/22px, padding top22px, padding bottom 28px
-	&__container {
+	.rating-state__container, .thankyou-state__container {
 		position: relative;
 		display: grid;
-		padding: 1.5em;
-		width: 22em;
-		height: 22em;
+		padding: 1.33rem;
+		width: 20.67rem;
+		height: 22.67rem;
 		background-color: $dark-blue2;
 		border-radius: 1em;
 	}
-
+	.rating-state {
 	&__img-box {
 		position: relative;
 		display: flex;
@@ -56,20 +56,21 @@ body {
 
 	&__img {
 		position: absolute;
-		width: 0.8em; //13px
+		width: 0.8em;
 		height: 0.8em; 
 	}
 
 	&__header {
+		padding-top: 1rem;
 		margin: 0;
 		color: $white;
 		font-weight: 400; //fz 18px
 	}
 
 	&__txt {
-		padding-bottom: 1em;
+		padding: 1rem auto;
 		color: $medium-grey;
-		font-size: 0.8rem; //12px
+		font-size: 0.8rem;
 		font-weight: 400;
 	}
 
@@ -77,8 +78,8 @@ body {
 		margin: 0;
 	}
 	&__circles-wrapper {
-		margin: 0;
 		padding-bottom: 1em;
+		padding-top: 0.66rem;
 		display: flex;
 		justify-content: space-between;
 	}
@@ -87,8 +88,8 @@ body {
 		align-items: center;
 		justify-content: center;
 		margin: 0;
-		width: 3em;
-		height: 3em; ////41px
+		width: 2.66rem;
+		height: 2.66rem; ////41px
 		border-radius: 50%;
 		border: 0 solid transparent;
 		background-color: $medium-grey2;
@@ -109,14 +110,15 @@ body {
 
 
 	&__btn {
-		width: 100%; //267 px
-		height: 3em; //44px
+		width: 100%; 
+		height: 3rem; 
 		background-color: $orange;
 		color: $white2;
 		border-radius: 20em;
 		border: 1px solid transparent;
+		font-size: 0.8rem;
 		text-transform: uppercase;
-		letter-spacing: 1px; //fz 12px
+		letter-spacing: 1px;
 		font-weight: 700;
 		cursor: pointer;
 		transition: background-color 0.3s, color 0.3s;
@@ -128,28 +130,19 @@ body {
 	}
 }
 
-.thankyou-state { //padding top 146px, bottom 143 px, 
-	&__container { //padding top 34px padding bottom 45 px padding sides 28px
-		position: relative;
-		display: grid;
-		padding: 1.2em;
-		width: 22em;// 310px
-		height: 22em;// 345px
-		background-color: $dark-blue2;
-		border-radius: 1em;
-	}
+	.thankyou-state{
 	&__img {
 		margin-top: 1em;
-		width: 50%; //136px
-		height: 80%; //91px
+		width: 50%; 
+		height: 80%; 
 	}
 
 	&__box {
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		width: 60%; //157px
-		height: 2.3em;// 32px
+		width: 60%;
+		height: 2.3em;
 		background-color: $medium-grey2;
 		border-radius: 2em;
 	}
@@ -166,10 +159,25 @@ body {
 
 	&__txt-grey {
 		color: $medium-grey3;
-		text-align: center; //fz 14px
+		text-align: center; 
 	}
 }
 
 .deactivate {
 	display: none;
+}
+
+@media(min-width: 992px) {
+	.rating-state__container, .thankyou-state__container {
+		padding: 1.66em;
+		width: 22em;
+		height: 22em;
+	
+}
+
+.rating-state{
+	&__btn{
+		height: 2.2rem;
+	}
+}
 }

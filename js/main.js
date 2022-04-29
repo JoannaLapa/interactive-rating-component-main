@@ -11,9 +11,10 @@ const removeGreyBgc = () => {
 }
 
 const changeWindows = () => {
-	if(score.innerHTML != ''){
-	rateContainer.classList.add('deactivate')
-	thankyouContainer.classList.remove('deactivate')}
+	if (score.innerHTML != '') {
+		rateContainer.classList.add('deactivate')
+		thankyouContainer.classList.remove('deactivate')
+	}
 }
 
 const addGreyBgc = () => {

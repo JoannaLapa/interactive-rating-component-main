@@ -37,7 +37,8 @@ body {
   font-size: 0.8rem;
 }
 
-.rating-state__container, .thankyou-state__container {
+.rating-state__container,
+.thankyou-state__container {
   position: relative;
   display: -ms-grid;
   display: grid;
@@ -197,8 +198,9 @@ body {
   display: none;
 }
 
-@media (min-width: 992px) {
-  .rating-state__container, .thankyou-state__container {
+@media (min-width: 768px) {
+  .rating-state__container,
+  .thankyou-state__container {
     width: 22rem;
     padding: 2rem 2rem 1.5rem;
   }

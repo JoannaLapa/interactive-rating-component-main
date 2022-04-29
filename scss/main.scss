@@ -31,16 +31,17 @@ body {
 	font-size: 0.8rem;
 }
 
-	.rating-state__container, .thankyou-state__container {
-		position: relative;
-		display: grid;
-		padding: 1.33rem;
-		width: 20.67rem;
-		height: 22.67rem;
-		background-color: $dark-blue2;
-		border-radius: 1em;
-	}
-	.rating-state {
+.rating-state__container,
+.thankyou-state__container {
+	position: relative;
+	display: grid;
+	padding: 1.33rem;
+	width: 20.67rem;
+	height: 22.67rem;
+	background-color: $dark-blue2;
+	border-radius: 1em;
+}
+.rating-state {
 	&__img-box {
 		position: relative;
 		display: flex;
@@ -57,7 +58,7 @@ body {
 	&__img {
 		position: absolute;
 		width: 0.8em;
-		height: 0.8em; 
+		height: 0.8em;
 	}
 
 	&__header {
@@ -108,10 +109,9 @@ body {
 		color: $white;
 	}
 
-
 	&__btn {
-		width: 100%; 
-		height: 3rem; 
+		width: 100%;
+		height: 3rem;
 		background-color: $orange;
 		color: $white2;
 		border-radius: 20em;
@@ -130,11 +130,11 @@ body {
 	}
 }
 
-	.thankyou-state{
+.thankyou-state {
 	&__img {
 		margin-top: 1em;
-		width: 50%; 
-		height: 80%; 
+		width: 50%;
+		height: 80%;
 	}
 
 	&__box {
@@ -148,7 +148,7 @@ body {
 	}
 
 	&__txt {
-		color: $orange2; 
+		color: $orange2;
 	}
 
 	&__header {
@@ -159,7 +159,7 @@ body {
 
 	&__txt-grey {
 		color: $medium-grey3;
-		text-align: center; 
+		text-align: center;
 	}
 }
 
@@ -167,16 +167,17 @@ body {
 	display: none;
 }
 
-@media(min-width: 992px) {
-	.rating-state__container, .thankyou-state__container {
+@media (min-width: 768px) {
+	.rating-state__container,
+	.thankyou-state__container {
 		width: 22rem;
 		padding: 2rem 2rem 1.5rem;
-	
-}
+	}
 
-.rating-state{
-	&__btn{
-		height: 2.2rem;
+	.rating-state {
+		&__btn {
+			height: 2.2rem;
+		}
 	}
 }
-}
+

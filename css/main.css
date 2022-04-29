@@ -199,9 +199,8 @@ body {
 
 @media (min-width: 992px) {
   .rating-state__container, .thankyou-state__container {
-    padding: 1.66em;
-    width: 22em;
-    height: 22em;
+    width: 22rem;
+    padding: 2rem 2rem 1.5rem;
   }
   .rating-state__btn {
     height: 2.2rem;

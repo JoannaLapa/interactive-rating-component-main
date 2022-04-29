@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/JoannaLapa/interactive-rating-component-main
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://joannalapa.github.io/interactive-rating-component-main/
 
 ## My process
 
